@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    width:50%;
+    height:100vh;
+    background-image: url("ultimatix.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.line1 img{
+    width:180px;
+    height:60px;
+}
+.box2 div{
+    margin:auto;
+}
+.line4{
+    color: #234E9B;
+    font-size:0.8rem;
+    font-weight:700;
+}
+.line3 input{
+    background-color:#234E9B;
+    color:white;
+    border:none;
+    padding:10px 50px;
+    border-radius:10px;
+}
+.line2 input{
+    border:none;
+    border-bottom:1px solid gray;
+    height:2rem;
+    font-size: 1rem;
+}
+input:focus{
+    outline:none; 
+}

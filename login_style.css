@@ -1,0 +1,122 @@
+@font-face {
+    font-family: NetflixSans;
+    src: url(fonts/NetflixSans-Bold.otf);
+    font-weight: bold;
+  }
+body{
+    font-family:sans-serif;
+    color:white;
+    margin:0 auto;
+    border:0;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52) 90%, rgba(26, 25, 25, 0.73) 40%, rgba(0, 0, 0, 0.52) 90%),
+    url("bg.jpg");
+}
+/*****************Header********************/
+header{
+    margin-bottom:20px;
+}
+header div{
+    box-sizing: border-box;
+    padding-left:40px;
+    padding-top:30px;
+    font-size:2.5rem;
+    color: #E50914;
+    letter-spacing: 1px;
+    font-family: "NetflixSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*************************box2*******************/
+#box2-container{
+    background-color:black;
+    opacity:0.8;
+    width:35%;
+    margin:auto;
+    margin-bottom: 10vh;
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    padding:60px 30px;
+    width:80%;
+    margin:auto;
+}
+#box2-header{
+    font-size:2rem;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.box2 form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+input{
+    background-color: #333333;
+    height:3rem;
+    margin:10px 0;
+    border:none;
+    border-radius: 5px;
+}
+#submit-button{
+    color: white;
+    font-size: 1rem;
+    font-weight:500;
+    background-color: red;
+    margin-top: 25px;
+}
+#checkbox{
+    padding:0;
+    margin:0;
+    margin-right:5px;
+    height:auto;
+}
+#form-line4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#737373;
+}
+/**********************footer******************/
+footer{
+    background-color:black;
+    opacity:0.7;
+    height:15vh;
+    line-height: 1.5rem;
+}
+footer .box3{
+    box-sizing: border-box;
+    width:80vw;
+    padding:20px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+}
+.flex_row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.flex_row1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.signup-part1{
+    color:#737373;
+}
+#margin-elongate{
+    margin-top:40px;    
+}
+.lastline{
+    margin-top:20px;
+    font-size:0.8rem;
+    color:#737373;
+}
+.lastline a{
+    color:#0426C7;
+}
+svg path{
+    fill:red;
+  }
